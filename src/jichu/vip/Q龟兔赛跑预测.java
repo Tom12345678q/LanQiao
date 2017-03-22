@@ -51,7 +51,7 @@ public class Q龟兔赛跑预测 {
 				}
 				if(flag&&++count>s){//flag是为不执行++count
 					flag=false;
-					count=0;//初始化
+					count=0;//进行重置
 				}
 				if(!flag){
 					tuS=tuS+v1;
