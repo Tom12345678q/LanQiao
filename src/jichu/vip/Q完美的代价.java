@@ -49,6 +49,9 @@ public class Q完美的代价 {
 				}
 			}
 			System.out.println(change);
+			for(int i=0;i<n;i++){
+				System.out.print(str[i]);
+			}
 		}
 		
 	}
