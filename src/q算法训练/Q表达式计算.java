@@ -5,6 +5,11 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ * @version 1.1
+ * @author 丁赵雷
+ *
+ */
 public class Q表达式计算 {
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
