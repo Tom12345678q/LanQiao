@@ -6,6 +6,7 @@ import java.util.Scanner;
  * @author 丁赵雷
  *
  */
+//这个70分 3个超时
 public class Q最短路 {
 	 // private int mEdgNum;        // 边的数量
     static char[] mVexs;       // 顶点集合
@@ -73,7 +74,7 @@ public class Q最短路 {
         // 遍历mVexs.length-1次；每次找出一个顶点的最短路径。
         int k=0;
         for (int i = 0; i < mVexs.length; i++) {
-            // 寻找当前最小的路径；
+        	// 寻找当前最小的路径；
             // 即，在未获取最短路径的顶点中，找到离vs最近的顶点(k)。
             int min = INF;
             for (int j = 0; j < mVexs.length; j++) {
